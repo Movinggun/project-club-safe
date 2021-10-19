@@ -1,6 +1,15 @@
+import Map from '../map/Map';
+import Navbar from '../navbar/Navbar';
+
 const Landing = ( ) => {
     return (
-        <> hi </>
+        <> 
+        <Navbar />
+        <div style={{position: 'relative', height: '100%', width: '100%'}}>
+            <Map />
+        </div>
+        
+        </>
     )
 }
 
